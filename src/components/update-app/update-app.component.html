@@ -1,0 +1,15 @@
+<ng-template #content>
+
+  <span class="header" matDialogTitle>Update Available!
+    <mat-icon class="icon" color="accent">system_update</mat-icon>
+  </span>
+
+
+  <mat-dialog-content>
+    <p>To get better performance from the app, it is highly recommended to update the application.</p>
+  </mat-dialog-content>
+
+  <mat-dialog-actions align="end">
+    <button mat-raised-button color="warn" (click)="reload()">Update</button>
+  </mat-dialog-actions>
+</ng-template>
